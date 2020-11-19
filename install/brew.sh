@@ -14,6 +14,8 @@ apps=(
      curl --with-openssl
      htop
      pre-commit
+     vim
+     tmux
 )
 for app in ${apps[@]}; do
     if [[ `brew info fish | grep "Not installed"` ]]; then 
